@@ -2,9 +2,11 @@ a = 0
 b = 0
 c = 0
 inp = "([)]"
+list = []
 for i in inp:
     if i == "{":
         a +=1
+
     elif i == "(":
         b+=1
     elif i == "[":
